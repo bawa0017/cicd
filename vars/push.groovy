@@ -1,4 +1,5 @@
 def call(String repo, String image, String version ){
+    ll
      withCredentials([usernamePassword("credentialsId":"dockerhub",
                               usernameVariable:"user",
                               passwordVariable:"pass")])
